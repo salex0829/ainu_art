@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;background:#0b0c10;color:#eaecee}
+.wrap{max-width:1000px;margin:0 auto;padding:16px}
+header{display:flex;flex-direction:column;gap:8px}
+h1{font-weight:800;font-size:22px;margin:8px 0}
+.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+button{padding:10px 14px;border:0;border-radius:12px;background:#1f6feb;color:#fff;font-weight:700;cursor:pointer;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+button#btnPause{background:#6b7280}
+button:active{transform:translateY(1px)}
+.toggle{display:flex;gap:6px;align-items:center}
+.note{opacity:.8;font-size:12px}
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin:14px 0;padding:10px;border:1px solid #273043;border-radius:12px;background:#11151c}
+#mapSection{margin-top:10px}
+#map{width:100%;height:48vh;border-radius:14px;overflow:hidden;border:1px solid #273043}
+footer{margin:18px 0;opacity:.9}
+code{background:#11151c;border:1px solid #273043;border-radius:6px;padding:1px 6px}
