@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pointA",
+    "name": "Point A",
+    "lat": 43.451,
+    "lon": 144.081,
+    "y": 1.6,
+    "radius_m": 30,
+    "audio": "assets/audio/pointA.wav",
+    "gain": 0.9
+  },
+  {
+    "id": "pointB",
+    "name": "Point B",
+    "lat": 43.4513,
+    "lon": 144.0813,
+    "y": 1.6,
+    "radius_m": 25,
+    "audio": "assets/audio/pointB.wav",
+    "gain": 0.9
+  },
+  {
+    "id": "pointC",
+    "name": "Point C",
+    "lat": 43.4516,
+    "lon": 144.0811,
+    "y": 1.6,
+    "radius_m": 20,
+    "audio": "assets/audio/pointC.wav",
+    "gain": 0.9
+  }
+]
